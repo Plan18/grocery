@@ -1,6 +1,6 @@
 	<form class="login-form" action="<?php echo base_url("login")?>" method="post">
 		<h3 class="form-title text-center">Login</h3>
-		<div class="alert alert-danger <?= validation_errors() || isset($errors) ? '':'display-hide	' ?>">
+		<div class="alert alert-danger <?= validation_errors() || isset($errors) ? '':'display-hide' ?>">
 			<button class="close" data-close="alert"></button>
 			<span>
 			<?php if(validation_errors()) validation_errors('<span>', '</span>');
